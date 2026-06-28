@@ -61,9 +61,9 @@ export const branches: Branch[] = [
     name: "Jai Ganesh Wheel Care",
     shortName: "Kondhwa Branch",
     owner: "Laukik Khengare", // brother's name
-    phone: "+9173787 40641",
+    phone: "+917378740641",
     phoneDisplay: "+91 73787 40641",
-    whatsapp: "9190903 81313",
+    whatsapp: "919090381313",
     area: "Kondhwa Budruk",
     addressLines: ["Near Burani Masjid, Tilekar Nagar", "Kondhwa Budruk"],
     pincode: "411048",
