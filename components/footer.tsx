@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 import { site, nav } from "@/content/site";
+import { Logo } from "@/components/logo";
 import { branches } from "@/content/branches";
 import { services } from "@/content/services";
 import { telLink, waLink } from "@/lib/utils";
@@ -11,7 +12,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="grid gap-10 md:grid-cols-4">
           <div>
-            <p className="font-display text-xl font-bold text-white">{site.name}</p>
+            <Logo light />
             <p className="mt-3 text-sm leading-relaxed text-slate-400">{site.tagline}. Serving Pune since {site.establishedYear}.</p>
           </div>
 

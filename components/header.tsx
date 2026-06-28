@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 import { site, nav } from "@/content/site";
 import { Button } from "@/components/ui/button";
+import { Logo } from "@/components/logo";
 import { telLink } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
@@ -13,14 +14,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-brand-600 font-display text-lg font-bold text-white">
-            JG
-          </span>
-          <span className="font-display text-lg font-bold leading-none text-brand-900">
-            {site.name}
-            <span className="block text-[11px] font-medium text-muted">Pune · 2 Branches</span>
-          </span>
+        <Link href="/" aria-label={`${site.name} home`} onClick={() => setOpen(false)}>
+          <Logo />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">

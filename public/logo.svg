@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 64" xmlns="http://www.w3.org/2000/svg" font-family="Poppins, Segoe UI, Arial, sans-serif">
+  <!-- emblem -->
+  <g>
+    <circle cx="32" cy="32" r="31" fill="none" stroke="#0d1b3e" stroke-width="2.6" stroke-dasharray="2.2 3.2"/>
+    <circle cx="32" cy="32" r="27.5" fill="none" stroke="#0d1b3e" stroke-width="8"/>
+    <circle cx="32" cy="32" r="18" fill="#f59e0b"/>
+    <circle cx="32" cy="32" r="18" fill="none" stroke="#0d1b3e" stroke-width="1.5"/>
+    <g fill="#0d1b3e">
+      <circle cx="32" cy="22" r="3.4"/>
+      <circle cx="41.5" cy="28.9" r="3.4"/>
+      <circle cx="37.9" cy="40.1" r="3.4"/>
+      <circle cx="26.1" cy="40.1" r="3.4"/>
+      <circle cx="22.5" cy="28.9" r="3.4"/>
+    </g>
+    <circle cx="32" cy="32" r="5.5" fill="#0d1b3e"/>
+    <circle cx="32" cy="32" r="2" fill="#f59e0b"/>
+  </g>
+  <!-- wordmark -->
+  <text x="76" y="34" font-size="23" font-weight="700" fill="#0d1b3e">Jai Ganesh<tspan fill="#f59e0b"> Tyres</tspan></text>
+  <text x="77" y="50" font-size="10.5" font-weight="500" letter-spacing="1.5" fill="#475569">PUNE · 2 BRANCHES</text>
+</svg>
